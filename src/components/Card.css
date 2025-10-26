@@ -1,0 +1,28 @@
+
+.card-container {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    max-height: 300px;
+    margin-top: 10px;
+    padding-left: 10px;
+
+}
+
+.card-container:hover {
+    background-color: #f8f9ff;
+    color: #646cff;
+}
+
+.card-container:active {
+    background-color: #eef0ff;
+}
+
+.card-container:focus {
+    border-color: #646cff;
+    box-shadow: 0 0 0 3px rgba(100, 108, 255, 0.1);
+}
+
