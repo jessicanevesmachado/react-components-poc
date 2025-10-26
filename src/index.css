@@ -24,10 +24,12 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  min-width: 320px;
   background-color: gray;
   min-height: 100vh;
+}
+
+#root {
+  width: 100%;
 }
 
 h1 {
